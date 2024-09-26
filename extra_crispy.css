@@ -1,0 +1,853 @@
+.top-bar {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+    color: #D72121;
+}
+
+.tabs-title > a {
+    color: #000000;
+}
+
+input {
+    opacity: .8;
+}
+
+.button.noFerpa  {
+    opacity: 1;
+}
+.button.noFerpa[disabled] {
+    opacity: 0.25;
+    cursor: not-allowed;
+}
+
+#search_str {
+    opacity: 1;
+}
+
+p.watermark {
+    position: absolute;
+    float: left;
+    top: 300px;
+    z-index: -1;
+    color: #999;
+    font-size: 100px;
+    pointer-events: none;
+    -webkit-transform: rotate(+45deg);
+    -moz-transform: rotate(+45deg);
+}
+
+.disabled-input {
+    width: 100%;
+    background: #e6e6e6;
+    border: 1px solid #cacaca;
+    opacity: .8;
+    font-weight: normal;
+    padding-left: .5em;
+    margin: 0 0 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+label p {
+    font-weight: normal;
+}
+
+.red-wide-hr {
+ width: 100%;
+ height:5px;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #D72121;
+}
+
+.acad-cal-h1 {
+    font-weight: bold;
+    width: 100%;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.acad-cal-h2 {
+    font-weight: bold;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.acad-cal-h3 {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.red-search {
+    text-decoration: none !important;
+    color: #D72121;
+}
+
+.tabs-title > a:hover {
+    color: #D72121;
+}
+
+@media print 
+{
+  a[href]:after { content: none !important; }
+  img[src]:after { content: none !important; }
+}
+
+.center-col {
+    text-align: center !important;
+}
+
+.accordion-title{
+	   text-decoration: none;
+}
+.accordion-title > a:hover {
+    color: #D72121;
+}
+
+.accordion-content .accordion .accordion-item  .accordion-title  {
+    font-size: medium;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.accordion-title {
+    display: block;
+    padding: 1.25rem 1rem;
+    line-height: 1;
+    font-size: 1.5em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.favorite {
+    color: #D72121;
+    padding-left: 10px;
+}
+
+.not-favorite {
+    color: #c4c4c4;
+    padding-left: 10px;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-style: none;
+}
+
+th {
+    text-align: left;
+}
+
+#search_str {
+    display: inline;
+    margin-right: 0;
+    height: 2.8rem;
+}
+
+.button {
+    background-color: #D72121;
+}
+
+.lookup {
+    color: #D72121;
+}
+
+.close-button {
+    background-color: transparent;
+}
+
+.button.disabled, .button.disabled:hover, .button.disabled:focus, .button[disabled], .button[disabled]:hover, .button[disabled]:focus {
+      background-color: #D72121 ; 
+      color: #fefefe; }
+
+.error {
+    color: #D72121;
+}
+
+.link-button { 
+    background: none;
+    border: none;
+    font: inherit;
+    padding: 0;
+    color: #D72121;
+}
+
+.dropdown.menu .is-dropdown-submenu-parent.is-down-arrow > a::after {
+    border-color: #FFFFFF transparent transparent;
+    padding-top: 10px;
+    content: none;
+}
+
+ul.dropdown.menu {
+    background-color: #101820;
+}
+
+li.divider {
+    border-top: solid 1px white;
+    clear: both;
+    height: 1px; 
+    width: 100%;
+}
+
+
+button, .button {
+    border-style: solid;
+    border-width: 0px; 
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: #D72121;
+    border-color: #7a0000;
+    color: white;
+    transition: background-color 300ms ease-out;
+}
+
+.top-bar .button, .top-bar button {
+    margin-bottom: 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+    line-height: inherit;
+}
+
+a.nounderline {
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #D72121;;
+}
+
+.button:focus {
+    background-color: #D72121;
+}
+
+.tabs-title a {
+    text-decoration: none;
+}
+
+.logo-bar a {
+    text-decoration: none;
+}
+
+.bucket-heading a {
+    text-decoration: none;
+}
+
+.wesportal-title a {
+    text-decoration: none;
+}
+
+.toggle-favorite {
+    text-decoration: none;
+}
+
+.edit-right a {
+    text-decoration: none;
+}
+
+.bucket-body a {
+    text-decoration: none;
+}
+
+.bucket-body-html a {
+    text-decoration: none;
+}
+
+button:hover, .button:hover {
+    background: #D72121;
+}
+
+a:hover {
+    color: #D72121;
+}
+
+.callout a {
+    color: #D72121;
+    text-decoration: underline;
+}
+
+.logo-bar a {
+    color: #D72121;
+}
+
+.logo-bar-image {
+    width: 35px;
+    padding-bottom: .75em;
+}
+
+.logo-bar {
+    border: 1px solid #b0b0b0;
+    border-radius: 4px;
+}
+
+.logo-bar-item {
+    padding-right: 1em;
+}
+
+.logo-bar-container li {
+    display: inline-block;
+    padding-top: .5em;
+}
+
+.logo-link-subscript {
+    color: #000000;
+    font-size: .75em;
+    display: block;
+}
+
+.bucket a:hover {
+    text-decoration: underline;
+}
+
+.phone-logo-bar ul {
+    width: 100%;
+    overflow: auto;
+}
+
+.phone-logo-bar li {
+    margin-right: .5em;
+}
+
+.logo-bar a:active {
+    color: #D72121;
+}
+
+.logo-bar a:visited {
+    color: #D72121;
+}
+
+.logo-bar-item a:hover {
+    text-decoration: none;
+}
+
+.wesredinvert a:hover {
+    color: #D72121;
+    background: #FFFFFF;
+}
+
+a img {
+    border: none;
+}
+
+body {
+    background: white;
+    color: #222222;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    position: relative;
+}
+
+.radius {
+    border-radius: 4px; 
+}
+
+.bucket {
+    margin-bottom: 1.25rem;
+    border: 1px solid #b0b0b0;
+    border-radius: 4px; 
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.bucket .bucket-heading {
+    position: relative;
+    padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+    background-color: #dddddd;
+    border-color: #ddd;
+    border-bottom: 1px solid #b0b0b0;
+    border-top-left-radius: 3px; 
+    border-top-right-radius: 3px;
+    color: black; 
+}
+
+.bucket .red-bucket {
+    position: relative;
+    padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+    background-color: #D72121;
+    color: #FFFFFF;
+    border-color: #ddd;
+    border-bottom: 1px solid #b0b0b0;
+    border-top-left-radius: 3px; 
+    border-top-right-radius: 3px; 
+}
+
+.bucket .bucket-button {
+    position: relative;
+    padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+    background-color: #c4c4c4;
+    border-color: #ddd;
+    border-bottom: 1px solid #b0b0b0;
+    border-top-left-radius: 3px; 
+    border-top-right-radius: 3px; 
+}
+
+a.bucket-button-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: inherit;
+}
+
+.submenu .bucket-heading {
+    background-color: #dddddd;
+}
+
+.bucket-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.bucket-title-black {
+    color: #000000;
+}
+
+.bucket-body {
+    padding: 0.9375rem;
+}
+
+.bucket-body-html {
+    padding: 0.9375rem;
+}
+
+.bucket-body ul { 
+    margin: 0;
+}
+
+.bucket.collapse-on-small .bucket-body {
+    display: none;
+}
+
+.bucket .bucket-heading .bucket-collapse {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: black;
+}
+
+.white-arrow-down {
+    float: right;
+    margin: 0.9375rem 0.9375rem 0 0;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #FFFFFF;
+    padding-left: 5px;
+}
+
+.wesleyanwww {
+    background: url(/static/images/wesleyan_dubya.png) no-repeat 0 0;
+    position: absolute;
+    left: -200px;
+    top: -200px;
+    transform: scale(.2);
+    width: 500px;
+    height: 500px;
+}
+
+.bucket-heading a {
+    color: #000000;
+}
+
+.bucket-heading a:hover {
+    text-decoration: none !important;
+}
+
+.dropdown a:hover {
+    text-decoration: underline;
+}
+
+.bucket .bucket-heading .arrow-down {
+    float: right;
+    margin: -.9em 0 0 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000000;
+}
+
+.bucket .bucket-heading .arrow-up {
+    float: right;
+    margin: -.9em 0 0 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #D72121;
+}
+
+.breadcrumbs {
+    background-color: #e4e4e4;
+    border-radius: 3px;
+    border: 1px solid #cecece;
+    padding-left: 1em;
+}
+
+.breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
+    text-decoration: underline;
+}
+
+.breadcrumbs > * a {
+    color: #000000;
+    text-transform: none;
+}
+
+.weslogo {
+    vertical-align: text-top; 
+    position: relative; 
+    top: -2px;
+} 
+
+.wesportal-title {
+    vertical-align: text-top; 
+    position: relative; 
+    top: 10px; 
+    font-size: 1.5em;
+}
+
+.wesportal-title a {
+    color: #ffffff !important;
+}
+
+.bigicon {
+    font-size: 2em;
+}
+
+dialog .close-reveal, .reveal .close-reveal {
+    font-size: 2.5rem;
+    line-height: 1;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.6875rem;
+    color: #aaaaaa;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 51em) {
+    .hide-small-bar {
+        display: none;
+    }
+    .show-small-bar {
+        display: block;
+    }
+    .top-bar-center {
+        margin: 0 auto;
+    }
+    .top-bar-right {
+        float: right;
+    }
+    .top-bar-left {
+        float: left;
+    }
+
+    .bigicon {
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (min-width: 51em) {
+    .hide-small-bar {
+        display: float;
+    }
+    .show-small-bar {
+        display: none;
+    }
+    .search-left {
+        width: 55%;
+    }
+    .search-left input {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .hide-small {
+        display: none !important;
+    }
+    .show-small {
+        display: block !important;
+    }
+    .top-bar-center {
+        margin: 0 auto;
+    }
+    .top-bar-right {
+        float: right;
+    }
+    .top-bar-left {
+        float: left;
+    }
+
+    .bigicon {
+        font-size: 1.25em;
+    }
+
+}
+
+@media (hover: hover) {
+    .hide-computer {
+        display: none;
+    }
+}
+
+@media (hover: none) {
+    .show-phone {
+        display: float !important;
+    }
+    .hide-phone {
+        display: none !important;
+    }
+    .hide-computer {
+        display: float !important;
+    }
+}
+
+
+@media only screen and (min-width: 40.01em) {
+    .hide-small {
+        display: float !important;
+    }
+    .show-small {
+        display: none !important;
+    }
+    .search-left {
+        width: 55%;
+    }
+    .search-left input {
+        width: 80%;
+    }
+    .wesportal-title {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 63.9375em) {
+    .hide-medium {
+        display: none;
+    }
+    .show-medium {
+        display: block;
+    }
+    
+}
+
+@media only screen and (min-width: 63.9375em) {
+    .hide-medium {
+        display: float;
+    }
+    .show-medium {
+        display: none;
+    }
+   
+}
+
+
+
+button.menu-icon {
+    background: black;
+    padding-right: 0.75em;
+}
+
+.divider {
+    border-top: solid 1px black;
+    clear: both;
+    height: 1px; 
+    width: 100%;
+}
+
+fieldset {
+    border: 1px solid #dddddd;
+    padding: 1.25rem;
+    margin: 1.125rem 0;
+}
+
+fieldset legend {
+    font-weight: bold;
+    background: white;
+    padding: 0 0.1875rem;
+    margin: 0;
+    margin-left: -0.1875rem;
+}
+
+
+::-webkit-scrollbar {
+    width:  13px;
+    height: 13px;
+    background-color:transparent;
+}
+::-webkit-scrollbar-track {
+    background-color:transparent;
+    width: 6px;
+}
+::-webkit-scrollbar-track-piece  {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {        
+    background: none #e4e4e4;
+    width: 6px;
+}
+
+.top-bar input {
+    max-width: 800px;
+    margin-right: 1rem;
+    width: 90%;
+}
+
+.edit-right {
+    float: right;
+}
+
+.edit-right a {
+    color: #FFFFFF;
+}
+
+.welcome-bar {
+    color: #FFFFFF;
+    background-color: #D72121;
+    height: 1.2em;
+}
+
+a.back-to-top {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+    position: absolute;
+    position: fixed;
+    bottom: 15px;
+    color: #fff;
+    right: 15px;
+    background: #D72121;
+    width: 50px;
+    height: 43px;
+    content: "\f077";
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    z-index: 999;
+    line-height: 1.5;
+    text-decoration: none;
+    border: 2px solid #FFF;
+}
+
+div.organizational-checkbox {
+    border: 1px solid #000;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    text-align: center;
+}
+
+i.checked {
+    color: #D72121;
+}
+
+.tabs-title > a {
+    font-size: 1em !important;
+}
+
+.breadcrumbs li {
+    font-size: 0.75rem !important;
+}
+
+.current-tab a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.current-tab a:hover {
+    color: #D72121;
+}
+
+.current-tab {
+    color: #000000;
+    background-color: #D72121;
+}
+
+.pronunciation {
+    color: #D72121;
+    font-size: 1.25em; 
+    font-weight: bold;
+}
+
+table.tablesorter thead tr {
+	color: #D72121;
+}
+
+table.tablesorter thead tr .header {
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+	padding-right: 1em;
+	
+}
+
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(/static/images/tableSort_asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(/static/images/tableSort_desc.gif);
+}
+
+.datepicker {
+    text-indent: 2em;
+    background: url( /static/images/themes/extra_crispy/calendar.png) no-repeat;
+    background-size: 2em 2em;
+    background-position: .1em .1em;
+}   
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+@media only  screen and (min-width: 40em) {
+	 h1 {
+	   font-size: 2rem;
+	}
+	 h2 {
+	   font-size: 1.7rem;
+	}
+}
+
+
+.dropdown.menu.vertical > li.opens-right > a::after {
+   
+    border-color: transparent transparent transparent #D72121;;
+}
+
+.dropdown.menu .is-active > a {
+    color : #D72121;
+}
