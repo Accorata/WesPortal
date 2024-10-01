@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" />
+    <link rel="stylesheet" href="extra_crispy.css" />
+
+</head>
+
+<body>
+    <div class="top-bar"
+        style="background-image: url(static/images/title.jpeg); background-size:cover; background-repeat:no-repeat; background-attachment:fixed; background-position:center">
+        <h1 class="menu-text" style="color: white;"> Custom WesPortal</h1>
+        <div class="top-bar-left">
+
+        </div>
+    </div>
+    <form action="profile.html" class="log-in" method="POST">
+        <fieldset>
+            <legend><b>Create Account</b></legend>
+            <h5 class="text-center">Enter a username and a password below.</h5>
+            <label>Username (Will not be displayed)
+                <input type="text" name="username" placeholder="Username">
+            </label>
+            <label>Password
+                <input type="text" name="password" placeholder="Password">
+            </label>
+            <label>Confirm Password
+                <input type="text" name="password_2" placeholder="Password">
+            </label>
+            <!-- <input onclick="showpw()" type="checkbox"><label for="show-password">Show password</label> -->
+            <p><input type="submit" class="button expanded" value="Confirm"></input></p>
+        </fieldset>
+    </form>
+    <form action="login.html" method="POST" style="text-align: center;">
+        <input class="small button" type="submit" value="I already have an account">
+    </form>
+
+    <!-- <div class="callout large"
+        style="width: 60%; margin: auto; background-color: lightsteelblue; padding: 0; margin-top: 5%; animation: fadeIn 3s;">
+        <div class="row">
+            <div class="large-4 columns">
+
+            </div>
+        </div>
+    </div> -->
+
+
+
+</body>
+
+</html>

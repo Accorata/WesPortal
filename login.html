@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" />
+    <link rel="stylesheet" href="extra_crispy.css" />
+
+</head>
+
+<body>
+    <div class="top-bar"
+        style="background-image: url(static/images/title.jpeg); background-size:cover; background-repeat:no-repeat; background-attachment:fixed; background-position:center">
+        <h1 class="menu-text" style="color: white;"> Custom WesPortal</h1>
+        <form action="create_account.html" method="POST"><input class="small button" type="submit" value="Sign Up">
+        </form>
+        <div class="top-bar-left">
+
+        </div>
+    </div>
+    <form action="profile.html" class="log-in" method="POST">
+        <fieldset>
+            <legend><b>Login</b></legend>
+            <label>Username
+                <input type="text" name="username" placeholder="Username">
+            </label>
+            <label>Password
+                <input type="text" name="password" placeholder="Password">
+            </label>
+            <!-- <input onclick="showpw()" type="checkbox"><label for="show-password">Show password</label> -->
+            <p><input type="submit" class="button expanded" value="Log In"></input></p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
